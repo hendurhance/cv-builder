@@ -1,0 +1,65 @@
+/* NAVABAR */
+
+.bg-dark.scrolled{
+    transition: ease-in 0.5s;
+    background-color: #165950 !important;
+}
+
+.bg-dark{
+    background-color: transparent !important;
+}
+
+.navbar-brand img{
+    width: 8em;
+}
+
+.nav-link{
+    font-weight: 700;
+    font-size: 17px;
+}
+
+/* HEADER */
+
+.masthead{
+    background-image: url(/assets/img/bg.svg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+.img-header{
+    width: 24em;
+    margin-left: 5em;
+    margin-top: 8em;
+}
+
+.header-h1{
+    color: #fff;
+    font-size: 4em;
+    line-height: 1em;
+    margin-top: 2em;
+}
+
+.header-p{
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: justify;
+    font-weight: 600;
+    color: #fff;
+}
+
+.header-p{
+   position: absolute;
+}
+
+.header-p::after{
+    content: "";
+    display:block;
+    background-color: #165950;
+    height: 8px;
+    margin-top: -8px;
+    z-index: -1;
+}
+

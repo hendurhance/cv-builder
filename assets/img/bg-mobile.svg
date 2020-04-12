@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="812" viewBox="0 0 375 812">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6a8e72"/>
+      <stop offset="1" stop-color="#0887ef"/>
+    </linearGradient>
+    <clipPath id="clip-iPhone_X_XS_1">
+      <rect width="375" height="812"/>
+    </clipPath>
+  </defs>
+  <g id="iPhone_X_XS_1" data-name="iPhone X/XS – 1" clip-path="url(#clip-iPhone_X_XS_1)">
+    <rect width="375" height="812" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="242" height="394" rx="121" transform="translate(98.261 624.565) rotate(-42)" fill="#265673"/>
+  </g>
+</svg>
