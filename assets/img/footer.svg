@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="588" viewBox="0 0 1920 588">
+  <defs>
+    <clipPath id="clip-footer">
+      <rect width="1920" height="588"/>
+    </clipPath>
+  </defs>
+  <g id="footer" clip-path="url(#clip-footer)">
+    <rect width="1920" height="588" fill="rgba(255,255,255,0)"/>
+    <g id="Path_2" data-name="Path 2" transform="translate(0 152)" fill="#165950">
+      <path d="M 1919.5 433.5 L 0.5 433.5 L 0.5 112.7129592895508 L 1919.5 0.5299891829490662 L 1919.5 433.5 Z" stroke="none"/>
+      <path d="M 1919 1.060211181640625 L 1 113.1847229003906 L 1 433 L 1919 433 L 1919 1.060211181640625 M 1920 0 L 1920 434 L 0 434 L 0 112.2414245605469 L 1920 0 Z" stroke="none" fill="#707070"/>
+    </g>
+    <path id="Path_3" data-name="Path 3" d="M0,69.127,1920-56V358H0Z" transform="translate(0 228)" fill="#27655d"/>
+    <path id="Path_4" data-name="Path 4" d="M240,0c56,240,240,105.661,240,236S372.548,472,240,472,28,382.339,28,252,184-240,240,0Z" transform="matrix(0.035, -0.999, 0.999, 0.035, 1625.43, 720.836)" fill="#165950"/>
+  </g>
+</svg>
