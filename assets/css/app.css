@@ -26,7 +26,7 @@
 /* HEADER */
 
 .masthead{
-    background-image: url(/assets/img/bg.svg);
+    background-image: url(../img/bg.svg);
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -71,7 +71,7 @@
 /* BOARD SECTION */
 
 .board{
-   background-image: url(/assets/img/bg-brand.svg);
+   background-image: url(../img/bg-brand.svg);
    background-size: cover;
    background-position: center;
    /* height: 50vh; */
@@ -200,7 +200,7 @@
 /* FOOTER */
 
 .footer{
-    background-image: url(/assets/img/footer.svg);
+    background-image: url(../img/footer.svg);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -252,7 +252,7 @@
 
 .breadcrumb{
     padding: 150px 0 0 0;
-    background-image: linear-gradient(150deg,rgba(0,0,0,0.5), rgba(22, 89, 80, 1)), url(/assets/img/interview.jpg);
+    background-image: linear-gradient(150deg,rgba(0,0,0,0.5), rgba(22, 89, 80, 1)), url(../img/interview.jpg);
     background-size: cover;
     background-position: center;
     z-index: -99;
@@ -318,3 +318,103 @@
 }
 
 /* CREATE RESUME */
+#msform fieldset{
+    position: relative;
+}
+
+/* #msform fieldset:not(:first-of-type){
+    display: none;
+} */
+
+.create-cv{
+    padding-top: 4em;
+}
+
+#progress-bar{
+    text-align: center;
+    overflow: hidden;
+    counter-reset: step;
+}
+
+#progress-bar li{
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    padding: 5px;
+    z-index: 99;
+}
+
+#progress-bar li::before{
+    content: counter(step);
+    counter-increment: step;
+    width: 20px;
+    line-height: 20px;
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    background: #165950;
+    border-radius: 10px;
+    margin: 0 auto 5px auto;
+}
+
+#progress-bar li::after{
+    content: "";
+    width: 104%;
+    height: 2px;
+    background: #165950;
+    position: absolute;
+    left: 0;
+    top: 1em;
+    z-index: -1;
+}
+
+.cv-title{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.cv-subtitle{
+    text-align: center;
+    font-size: 1.33em;
+}
+
+.form{
+    padding-top: 2em;
+}
+
+input{
+    width: 100%;
+    background: none;
+    border: 0;
+    border-bottom: 3px solid #165950;
+    outline: hidden;
+    padding: 5px;
+}
+
+input:focus{
+    outline: none;
+}
+
+label{
+    padding-top: 5px;
+}
+
+.each-feild{
+    padding-top: 10px;
+}
+
+textarea{
+    width: 100%;
+    border: 0;
+    border-bottom: 3px solid #165950;
+    background: none;
+}
+
+
+textarea:focus{
+    outline: none;
+}
+

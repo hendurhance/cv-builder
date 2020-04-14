@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width, initial-scale=1.0">
     <title>CV Builder | OctaJobs</title>
-    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="/assets/css/app.css">
-    <link rel="stylesheet" href="/assets/css/scroll-down.css">
-    <link rel="stylesheet" href="/assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/scroll-down.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 <body>
 
@@ -16,7 +16,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
           <a class="navbar-brand" href="#">
-                <img src="/assets/img/OctaJobs.svg" alt="OctaJobs Logo">
+                <img src="assets/img/OctaJobs.svg" alt="OctaJobs Logo">
               </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-ellipsis-h fa-2x"></i>
@@ -29,10 +29,10 @@
                     </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="create.html">Create CV</a>
+                <a class="nav-link" href="create.php">Create CV</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="template.html">CV Templates</a>
+                <a class="nav-link" href="template.php">CV Templates</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Job Listing</a>
@@ -51,7 +51,7 @@
               <p class="header-p"> <span>It's simple, It's fast and It's free</span> </p>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 main-class">
-                <img src="/assets/img/resume.svg" class="img-header img-fluid" alt="">
+                <img src="assets/img/resume.svg" class="img-header img-fluid" alt="">
             </div>
             <div class="scroll">
            <div class="chevron"></div><div class="chevron"></div><div class="chevron"></div><span class="text">Scroll down</span></div>
@@ -108,7 +108,7 @@
        <div class="container">
          <div class="row what-to-div">
            <div class="col-lg-6 col-md-6 col-sm-12">
-             <img src="/assets/img/what-do.svg" class="img-fluid img-what-to" alt="What To">
+             <img src="assets/img/what-do.svg" class="img-fluid img-what-to" alt="What To">
            </div>
            <div class="col-lg-6 col-md-6 col-sm-12">
              <div class="what-to-do">
@@ -139,7 +139,7 @@
              <div class="img-div">
 
              </div>
-             <img class="logo-footer img-fluid" src="/assets/img/OctaJobs.svg" alt="Logo">
+             <img class="logo-footer img-fluid" src="assets/img/OctaJobs.svg" alt="Logo">
            </div>
            <div class="col-lg-6 col-md-12 col-sm-12 footer-link">
              <a href="#" class="btn-footer">Home</a>
@@ -156,10 +156,10 @@
 
 
     <!-- Link to JS -->
-    <script src="/assets/js/jquery.min.js"></script>
-    <script src="/assets/js/bootstrap.min.js"></script>
-    <script src="/assets/js/bootstrap.bundle.min.js"></script>
-    <script src="/assets/js/parallax.min.js"></script>
-    <script src="/assets/js/app.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/parallax.min.js"></script>
+    <script src="assets/js/app.js"></script>
 </body>
 </html>

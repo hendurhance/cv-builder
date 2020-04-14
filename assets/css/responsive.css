@@ -34,7 +34,7 @@
 
 @media screen and (max-width: 425px){
     .masthead{
-        background-image: url(/assets/img/bg-mobile.svg);
+        background-image: url(../img/bg-mobile.svg);
         width: 100%;
         background-size: cover;
         background-position: center;
@@ -50,7 +50,7 @@
         display:  none;
     }
     .board{
-        background-image: url(/assets/img/bg-brand-mobile.svg);
+        background-image: url(../img/bg-brand-mobile.svg);
         background-size: cover;
         background-position: center;
         /* height: 160vh; */
@@ -69,6 +69,12 @@
     }
     .temp-title h6{
         padding-top: 10px;
+    }
+    .p-5{
+        padding: 1em !important;
+    }
+    #progress-bar{
+        padding-right: 3em;
     }
 }
 
