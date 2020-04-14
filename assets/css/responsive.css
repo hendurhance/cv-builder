@@ -67,6 +67,9 @@
     .what-h3::after{
         width: 60%;
     }
+    .temp-title h6{
+        padding-top: 10px;
+    }
 }
 
 @media screen and (max-width: 375px){

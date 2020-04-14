@@ -24,15 +24,15 @@
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Home
+                <a class="nav-link" href="index.html">Home
                       <span class="sr-only">(current)</span>
                     </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Create CV</a>
+                <a class="nav-link" href="create.html">Create CV</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">CV Templates</a>
+                <a class="nav-link" href="template.html">CV Templates</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Job Listing</a>
