@@ -63,16 +63,16 @@
          <div class="container">
             <div class="card border-light bg-light p-5 shadow">
                 <form action="inc/proccess.php" method="post" id="msform">
-                    <!-- <ul id="progress-bar">
+                    <ul id="progress-bar">
                         <li class="active">Personal Details</li>
                         <li>Experience</li>
                         <li>Education</li>
                         <li>Skills & Hobbies</li>
-                    </ul> -->
+                    </ul>
                     <!-- first fieldset -->
-                        <!-- <h2 class="cv-title">Create your Resume</h2>
+                        <h2 class="cv-title">Create your Resume</h2>
                         <h3 class="cv-subtitle">This is step 1</h3>
-                        <div class="form"> -->
+                        <div class="form">
                             <div class="row each-feild">
                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                     <label for="">Full Name</label>
@@ -99,7 +99,7 @@
                                     <textarea name="bio" id="" cols="30" rows="10"></textarea>
                                 </div>
                             </div>
-                        <!-- </div> -->
+                        </div>
                         <button type="submit" name="submit" class="btn btn-success submit">Submit</button>
                 </form>
               </div>
